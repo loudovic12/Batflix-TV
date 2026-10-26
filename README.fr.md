@@ -1,4 +1,4 @@
-<p align="center"><img src="assets/banner.png" alt="Batflix" width="640"></p>
+<p align="center"><img src="assets/banner.png" alt="Batflix pour Android TV"></p>
 
 <p align="center">
   <b>Le lecteur IPTV pensé pour la télécommande.</b><br>

@@ -1,4 +1,4 @@
-<p align="center"><img src="assets/banner.png" alt="Batflix" width="640"></p>
+<p align="center"><img src="assets/banner.png" alt="Batflix for Android TV"></p>
 
 <p align="center">
   <b>The IPTV player built for the remote.</b><br>
