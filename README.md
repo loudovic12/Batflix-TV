@@ -11,6 +11,12 @@
   · <a href="README.fr.md">Version française</a>
 </p>
 
+<p align="center">
+  <img alt="Downloader code 9415870" src="https://img.shields.io/badge/Downloader-9415870-FFC93C">
+  <img alt="Android TV 6+" src="https://img.shields.io/badge/Android%20TV-6%2B-3DDC84">
+  <img alt="Built with the help of AI" src="https://img.shields.io/badge/built%20with-the%20help%20of%20AI-8A2BE2">
+</p>
+
 ## What it does
 
 | | |
@@ -30,8 +36,8 @@
 ## Install on your TV
 
 1. On the TV, install **Downloader** from the Play Store (free).
-2. In Downloader, enter the address
-   `https://github.com/loudovic12/Batflix-TV/releases/latest/download/Batflix.apk`
+2. In Downloader, enter the code **9415870** (or the address
+   `https://github.com/loudovic12/Batflix-TV/releases/latest/download/Batflix.apk`).
 3. Allow Downloader to install apps when Android asks, then open Batflix.
 
 After that, Batflix updates itself: each new version shows up with its release notes and an Update button.
@@ -41,5 +47,7 @@ After that, Batflix updates itself: each new version shows up with its release n
 - **Batflix provides no channels and no content.** It is a player: you need your own IPTV subscription.
 - **Your logins stay on the TV**, encrypted. No Batflix account, no ads, no tracking.
 - **Only download Batflix from this page.** Every version is signed, so a modified copy cannot replace yours.
+- **Built with the help of AI.** Batflix is designed, tested on real Android TV boxes and maintained by its author,
+  with Claude (Anthropic) as a coding assistant.
 
 The screenshots use free, public channels.
