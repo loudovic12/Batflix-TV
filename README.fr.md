@@ -35,12 +35,51 @@
 
 ## Installer sur la TV
 
-1. Sur la TV, installez **Downloader** depuis le Play Store (gratuit).
-2. Dans Downloader, tapez le code **9415870** (ou l'adresse
-   `https://github.com/loudovic12/Batflix-TV/releases/latest/download/Batflix.apk`).
-3. Autorisez Downloader à installer des applis quand Android le demande, puis ouvrez Batflix.
+**Le plus simple : l'appli Downloader** (Android TV, Google TV et anciennes Fire TV)
 
-Ensuite, Batflix se met à jour tout seul : chaque nouvelle version s'annonce avec ses nouveautés et un bouton « Mettre à jour ».
+1. Sur la TV, installez **Downloader** d'AFTVnews (logo orange) depuis le Play Store, ou l'Appstore d'Amazon sur Fire TV.
+2. Ouvrez Downloader et tapez le code **9415870** ([aftv.news/9415870](https://aftv.news/9415870)), ou l'adresse
+   `https://github.com/loudovic12/Batflix-TV/releases/latest/download/Batflix.apk`.
+   Les deux mènent toujours à la dernière version signée.
+3. Quand Android le demande, autorisez Downloader à installer des applis, revenez en arrière, puis **Installer** et **Ouvrir**.
+4. Downloader peut ensuite supprimer l'APK pour libérer de la place : Batflix reste installé.
+
+**Autres façons**
+
+- **Depuis le téléphone ou l'ordinateur** : téléchargez `Batflix.apk` dans les [Releases](https://github.com/loudovic12/Batflix-TV/releases)
+  et envoyez-le à la TV avec une appli de transfert comme *Send Files to TV*.
+- **Clé USB** : copiez `Batflix.apk` sur une clé USB et ouvrez-le avec un gestionnaire de fichiers sur la TV (par exemple *X-plore*).
+- **adb** (avancé) : `adb install Batflix.apk`.
+
+**Selon l'appareil**
+
+- **Google TV (Chromecast avec Google TV, TV récentes)** : l'installation d'applis est bloquée tant qu'on ne l'active pas.
+  *Paramètres › Système › À propos*, appuyez 7 fois sur *Build du système d'exploitation Android TV* pour activer le
+  mode développeur, puis *Paramètres › Applis › Sécurité et restrictions › Sources inconnues* et activez **Downloader**.
+- **Fire TV** : activez *Paramètres › Ma Fire TV › Options pour les développeurs › Installer des applis inconnues ›
+  Downloader*. Les Fire TV sorties depuis fin 2025 tournent sous Vega OS, pas Android, et ne peuvent pas lancer
+  Batflix. Fire TV n'est pas encore testée.
+- Batflix demande **Android 6 ou plus récent**. L'appareil de référence est une Xiaomi Mi Box S (Android TV 14).
+
+**Ajouter votre abonnement**
+
+Au premier lancement, suivez l'accueil jusqu'à **Nouveau compte**. Le plus rapide : **scannez le QR code avec
+votre téléphone** (même Wi-Fi que la TV), entrez le code PIN affiché sur la TV, puis remplissez vos infos ou collez
+votre lien d'abonnement complet. Sur la TV, choisissez **Enregistrer et charger**. Les chaînes sont prêtes en quelques
+secondes, les films et séries en une minute environ.
+
+**Mises à jour**
+
+Rien à faire : Batflix affiche une fenêtre quand une nouvelle version sort (ou vérifiez dans *Réglages › À propos ›
+Rechercher une mise à jour*) et l'installe en un clic. La première fois, Android peut demander d'autoriser Batflix à
+installer des applis.
+
+**Dépannage**
+
+- *« Application non installée »* : libérez de la place et téléchargez à nouveau. Si un ancien Batflix venu
+  d'ailleurs est installé, désinstallez-le d'abord (une autre signature ne peut pas être mise à jour).
+- *Downloader n'ouvre pas le code* : tapez plutôt l'adresse complète ci-dessus.
+- *Aucune chaîne* : vérifiez les infos de votre abonnement, puis *Réglages › Synchroniser*.
 
 ## Bon à savoir
 
