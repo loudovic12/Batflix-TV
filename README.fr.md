@@ -12,10 +12,32 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/loudovic12/Batflix-TV/releases/latest"><img alt="Dernière version" src="https://img.shields.io/github/v/release/loudovic12/Batflix-TV?label=version&color=FFC93C&labelColor=12151C"></a>
   <img alt="Code Downloader 9415870" src="https://img.shields.io/badge/Downloader-9415870-FFC93C">
   <img alt="Android TV 6 ou plus" src="https://img.shields.io/badge/Android%20TV-6%2B-3DDC84">
   <img alt="Fait avec l'aide de l'IA" src="https://img.shields.io/badge/fait%20avec-l'aide%20de%20l'IA-8A2BE2">
 </p>
+
+<p align="center">
+  <a href="#nouveautés-de-la-130">Nouveautés</a> ·
+  <a href="#ce-que-fait-batflix">Fonctions</a> ·
+  <a href="#captures">Captures</a> ·
+  <a href="#installer-sur-la-tv">Installer</a> ·
+  <a href="#bon-à-savoir">Bon à savoir</a>
+</p>
+
+## Nouveautés de la 1.3.0
+
+> [!TIP]
+> **Double écran.** Deux chaînes du direct à la fois, côte à côte ou une grande et une petite. Le son suit l'écran
+> choisi, et la seconde chaîne peut venir d'un autre compte. Dans le lecteur du direct : ▼ puis *Double écran*.
+
+- **Le direct tient mieux les pannes.** Quand une chaîne ne passe plus, Batflix essaie chaque solution une fois
+  (autre serveur, format ou qualité), puis passe tout seul sur la même chaîne sous un autre nom chez votre fournisseur.
+- **« Réessayer » marche de nouveau** dans le direct, et un flux figé n'attend plus sans fin.
+- **Le son arrive tout de suite** en passant de l'aperçu au plein écran, et **le Guide s'ouvre bien plus vite**.
+
+Tout l'historique dans les [Releases](https://github.com/loudovic12/Batflix-TV/releases).
 
 ## Ce que fait Batflix
 
@@ -23,6 +45,7 @@
 |---|---|
 | **Le direct qui tient.** Quand un serveur coupe ou ralentit, Batflix reprend tout seul, sur la même chaîne ou sur un autre serveur de votre abonnement. Le zapping démarre en moins d'une seconde et demie. | **Tout à la télécommande.** Catégories à gauche, chaînes au centre, aperçu en direct à droite. Recherche à la voix, filtre par pays, favoris en maintenant OK. |
 | **Films et séries.** Reprise là où vous vous êtes arrêté, « À voir plus tard », favoris, « Vu », tri par nouveautés ou de A à Z, épisode suivant enchaîné. | **Ajout du compte depuis le téléphone.** Scannez le QR code affiché sur la TV et remplissez le formulaire sur le téléphone : il va directement à la TV par votre Wi-Fi, jamais par Internet. |
+| **Guide TV et replay.** Un onglet Guide avec les programmes en grille, heure par heure. Les émissions des derniers jours en replay, quand votre fournisseur le propose. | **Double écran.** Deux chaînes du direct à la fois, côte à côte ou en incrustation, depuis un ou deux comptes. |
 | **Plusieurs comptes.** Xtream ou playlist M3U, plusieurs serveurs par compte. Si l'un tombe, les autres continuent. | **Mises à jour intégrées.** Batflix vous prévient quand une nouvelle version sort, montre ce qui change et l'installe en un clic. |
 
 ## Captures
@@ -44,14 +67,18 @@
 3. Quand Android le demande, autorisez Downloader à installer des applis, revenez en arrière, puis **Installer** et **Ouvrir**.
 4. Downloader peut ensuite supprimer l'APK pour libérer de la place : Batflix reste installé.
 
-**Autres façons**
+<details>
+<summary><b>Autres façons</b></summary>
 
 - **Depuis le téléphone ou l'ordinateur** : téléchargez `Batflix.apk` dans les [Releases](https://github.com/loudovic12/Batflix-TV/releases)
   et envoyez-le à la TV avec une appli de transfert comme *Send Files to TV*.
 - **Clé USB** : copiez `Batflix.apk` sur une clé USB et ouvrez-le avec un gestionnaire de fichiers sur la TV (par exemple *X-plore*).
 - **adb** (avancé) : `adb install Batflix.apk`.
 
-**Selon l'appareil**
+</details>
+
+<details>
+<summary><b>Selon l'appareil</b></summary>
 
 - **Google TV (Chromecast avec Google TV, TV récentes)** : l'installation d'applis est bloquée tant qu'on ne l'active pas.
   *Paramètres › Système › À propos*, appuyez 7 fois sur *Build du système d'exploitation Android TV* pour activer le
@@ -60,6 +87,8 @@
   Downloader*. Les Fire TV sorties depuis fin 2025 tournent sous Vega OS, pas Android, et ne peuvent pas lancer
   Batflix. Fire TV n'est pas encore testée.
 - Batflix demande **Android 6 ou plus récent**. L'appareil de référence est une Xiaomi Mi Box S (Android TV 14).
+
+</details>
 
 **Ajouter votre abonnement**
 
@@ -74,12 +103,15 @@ Rien à faire : Batflix affiche une fenêtre quand une nouvelle version sort (
 Rechercher une mise à jour*) et l'installe en un clic. La première fois, Android peut demander d'autoriser Batflix à
 installer des applis.
 
-**Dépannage**
+<details>
+<summary><b>Dépannage</b></summary>
 
 - *« Application non installée »* : libérez de la place et téléchargez à nouveau. Si un ancien Batflix venu
   d'ailleurs est installé, désinstallez-le d'abord (une autre signature ne peut pas être mise à jour).
 - *Downloader n'ouvre pas le code* : tapez plutôt l'adresse complète ci-dessus.
 - *Aucune chaîne* : vérifiez les infos de votre abonnement, puis *Réglages › Synchroniser*.
+
+</details>
 
 ## Bon à savoir
 
